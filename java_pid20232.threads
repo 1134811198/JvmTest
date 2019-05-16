@@ -1,0 +1,42 @@
+Thread 0xfff08d48
+
+  locals:
+
+Thread 0xfff08ec0
+
+  locals:
+
+Thread 0xfff09038
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.ref.ReferenceQueue.remove(J)Ljava/lang/ref/Reference; (ReferenceQueue.java:143)
+  at java.lang.ref.ReferenceQueue.remove()Ljava/lang/ref/Reference; (ReferenceQueue.java:164)
+  at java.lang.ref.Finalizer$FinalizerThread.run()V (Finalizer.java:209)
+
+  locals:
+    objectId=0xfff091c8, line=1
+    objectId=0xfff091b8, line=1
+    objectId=0xfff091c8, line=2
+    objectId=0xfff09038, line=3
+    objectId=0xfff091e8, line=3
+
+Thread 0xfff091f8
+  at java.lang.Object.wait(J)V (Native Method)
+  at java.lang.Object.wait()V (Object.java:502)
+  at java.lang.ref.Reference.tryHandlePending(Z)Z (Reference.java:191)
+  at java.lang.ref.Reference$ReferenceHandler.run()V (Reference.java:153)
+
+  locals:
+    objectId=0xfff09370, line=1
+    objectId=0xfff09370, line=2
+    objectId=0xfff091f8, line=3
+
+Thread 0xfff094f0
+  at java.lang.OutOfMemoryError.<init>()V (OutOfMemoryError.java:48)
+  at com.atguigu.jvm.test.MatTest.<init>()V (MatTest.java:8)
+  at com.atguigu.jvm.test.MatTest.main([Ljava/lang/String;)V (MatTest.java:18)
+
+  locals:
+    objectId=0xfff09380, line=1
+    objectId=0xfff09390, line=2
+    objectId=0xfff093a0, line=2
+
